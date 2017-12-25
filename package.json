@@ -4,8 +4,8 @@
   "description": "A minimal hyperapp boilerplate project with parcel as bundle",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development parcel index.html ",
-    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./ -d build/output"
+    "start": "cross-env NODE_ENV=development parcel index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./ -d build --no-minify --no-cache"
   },
   "repository": {
     "type": "git",
