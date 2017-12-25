@@ -1,3 +1,5 @@
 node_modules/
 dist/
 .cache/
+build
+package-lock.json
