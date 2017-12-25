@@ -1,0 +1,17 @@
+@import 'reset';
+
+$bgColor : #0c1746;
+$lightGray: #fff;
+$defaultFontSize: 30px;
+
+body {
+    background: $bgColor;
+}
+.container {
+    margin: 50vh auto;
+    text-align: center;
+    h1 {
+        color: $lightGray;
+        font-size: $defaultFontSize;
+    }
+}
