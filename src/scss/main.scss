@@ -1,17 +1,57 @@
 @import 'reset';
 
-$bgColor : #0c1746;
+$bgColor : #00bbff;
 $lightGray: #fff;
 $defaultFontSize: 30px;
 
 body {
     background: $bgColor;
+    height: 100vh;
+    display: flex
 }
 .container {
-    margin: 50vh auto;
+    margin: auto;
     text-align: center;
-    h1 {
+    font-size: $defaultFontSize;
+
+    h1, h2 {
         color: $lightGray;
-        font-size: $defaultFontSize;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+
+    hr {
+        border-style: dashed;
+        border-color: $lightGray;
+        width: 75vh;
+    }
+
+    button {
+        background: transparent;
+        border-style: solid;
+        border-color: transparent;
+        margin: 5px;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 900;
+        padding: 2px 10px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover:not(:disabled) {
+            border-color: $lightGray;
+            cursor: pointer;
+        }
+
+        &:disabled {
+            opacity: 0.6;
+        }
     }
 }

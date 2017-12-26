@@ -1,13 +1,8 @@
-import './scss/main.scss'
-import {
-    h,
-    app
-} from "hyperapp"
+import { h, app} from "hyperapp"
 
-
-console.log('Site is running')
 const state = {
-    title: 'The site is running'
+    title: 'It works !',
+    count: 0
 }
 
 const actions = {
@@ -18,9 +13,15 @@ const actions = {
         count: state.count + 1
     })
 }
-const view = (state,actions) => (
+
+const view = (state, actions) => (
+    console.table(state),
     <div class="container">
-            <h1>{state.title}</h1>
+        <h1>{state.title}</h1>
+        <hr/>
+        <h2>{state.count}</h2>
+        <button onclick={actions.down} disabled={state.count <= 0}>−</button>
+        <button onclick={actions.up}>+</button>
     </div>
   )
 
