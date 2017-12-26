@@ -1,4 +1,4 @@
-@import 'reset';
+@import './reset.css';
 
 $bgColor : #00bbff;
 $lightGray: #fff;

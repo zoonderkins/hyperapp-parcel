@@ -1,6 +1,8 @@
 {
   "modules": false,
   "plugins": {
+    "postcss-nested": true,
+    "postcss-variables": true,
     "autoprefixer": {
       "browsers": [
         ">1%",

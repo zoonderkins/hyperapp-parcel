@@ -23,7 +23,8 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "cross-env": "^5.1.1",
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.3.0"
+    "parcel-bundler": "^1.3.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-variables": "^1.1.1"
   }
 }
