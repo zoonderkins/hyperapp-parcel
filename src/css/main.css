@@ -40,6 +40,7 @@ body {
         font-size: 3em;
         font-weight: 900;
         padding: 2px 10px;
+        width: 85px;
 
         &:focus {
             outline: none;
