@@ -1,5 +1,12 @@
+# dependencies
 node_modules/
-dist/
-.cache/
-build
+yarn.lock
 package-lock.json
+
+# Dist
+dist/
+build/
+.cache/
+
+# misc
+*.log*
