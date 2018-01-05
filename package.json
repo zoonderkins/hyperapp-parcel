@@ -16,7 +16,7 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./ -d build --no-cache"
   },
   "dependencies": {
-    "hyperapp": "^0.18.0"
+    "hyperapp": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.1",
