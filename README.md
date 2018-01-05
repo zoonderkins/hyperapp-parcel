@@ -4,7 +4,7 @@
 ## Getting started
 - **1.** Clone the boilerplate repository to create a new fresh project
   ```sh
-  git clone --deph 0 --origin boilerplate git@github.com:ookangzheng/hyperapp-parcel.git <YOUR PROJECT>
+  git clone --depth 1 --origin boilerplate git@github.com:ookangzheng/hyperapp-parcel.git <YOUR PROJECT>
   #
   cd <YOUR PROJECT>
   ```
